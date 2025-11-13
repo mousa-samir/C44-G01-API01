@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>E_Commerce.Persistence</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.20" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\E-Commerce.Doman\E-Commerce.Doman.csproj" />
+    <ProjectReference Include="..\E-Commerce.Services Abstraction\E-Commerce.Services Abstraction.csproj" />
+    <ProjectReference Include="..\E-Commerce.Services\E-Commerce.Services.csproj" />
+  </ItemGroup>
+
+</Project>
