@@ -13,7 +13,7 @@ namespace E_Commerce.Services.Specifications
     {
 
         public Expression<Func<TEntity, bool>> Criteria {  get; }
-        protected BaseSpecification(Expression<Func<TEntity,bool>>criteriaEpression)
+        protected BaseSpecification(Expression<Func<TEntity,bool>>criteriaEpression)//
         {
             Criteria = criteriaEpression;
         }

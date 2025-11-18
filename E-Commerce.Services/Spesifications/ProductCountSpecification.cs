@@ -11,7 +11,7 @@ namespace E_Commerce.Services.Specifications
     internal class ProductCountSpecification : BaseSpecification<Product, int>
     {
         public ProductCountSpecification(ProductQueryParams queryParams)
-            : base(ProductSpecificationsHelper.GetProductCriteria(queryParams))
+            : base(ProductSpecificationsHelper.GetProductCriteria(queryParams))//
         {
 
         }

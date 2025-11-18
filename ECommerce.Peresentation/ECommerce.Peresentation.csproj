@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.3.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\E-Commerce.Doman\E-Commerce.Doman.csproj" />
     <ProjectReference Include="..\E-Commerce.Services Abstraction\E-Commerce.Services Abstraction.csproj" />
     <ProjectReference Include="..\E-Commerce.Services\E-Commerce.Services.csproj" />

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace E_Commerce.Domain.Contracts
 {
-    public interface IGenericRepository<TEntity,TKey> where TEntity : BaseEntity<TKey>
+    public interface IGenericRepository<TEntity,TKey> where TEntity : BaseEntity<TKey>//
     {
         Task<IEnumerable<TEntity>> GetAllAsync();
         Task<IEnumerable<TEntity>> GetAllAsync(ISpecifictions<TEntity,TKey> specifications);

@@ -17,4 +17,4 @@ namespace E_Commerce.Shared.DTOs.ProductDTOs
         public string ProductBrand { get; set; } = default!;
 
     }
-}
+}//

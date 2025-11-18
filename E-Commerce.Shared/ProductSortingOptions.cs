@@ -12,5 +12,5 @@ namespace E_Commerce.Shared
         NameDesc = 2,
         PriceAsc = 4,
         PriceDesc = 3,
-    }
+    }//
 }

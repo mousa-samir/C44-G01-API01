@@ -40,7 +40,7 @@ namespace E_Commerce.Shared
                 else if ( value > MaxPageSize)
                     _pageSize = MaxPageSize;
                 else
-                    _pageSize = value;
+                    _pageSize = value;//
                 
             }
         }

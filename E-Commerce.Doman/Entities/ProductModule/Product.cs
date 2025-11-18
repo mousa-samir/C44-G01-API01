@@ -11,7 +11,7 @@ namespace E_Commerce.Domain.Entities.ProductModule
         public string Name { get; set; } = default!;
         public string Description { get; set; } = default!;
         public string PictureUrl { get; set; } = default!;
-        public decimal Price { get; set; }
+        public decimal Price { get; set; }//
 
         #region RelationShips
         public int BrandId { get; set; }

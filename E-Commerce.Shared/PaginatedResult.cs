@@ -20,5 +20,5 @@ namespace E_Commerce.Shared
         public int PageSize { get; set; }
         public int Count { get; set; }
         public IEnumerable<TEntity> Data { get; set; }
-    }
+    }//
 }

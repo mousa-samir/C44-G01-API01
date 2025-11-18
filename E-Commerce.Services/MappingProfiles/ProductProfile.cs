@@ -19,7 +19,7 @@ namespace E_Commerce.Services.MappingProfiles
                       .ForMember(dest => dest.ProductBrand, option => option.MapFrom(src => src.ProductBrand.Name))
                       .ForMember(dest => dest.PictureUrl, option => option.MapFrom<ProductPictureUrlResolver>());
 
-            //CreateMap<Product,ProductDTO,>();
+            //CreateMap<Product,ProductDTO,>();//
         }
     }
 }

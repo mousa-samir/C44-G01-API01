@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace E_Commerce.Services.MappingProfiles
 {
-    public class ProductPictureUrlResolver : IValueResolver<Product, ProductDTO, string>
+    public class ProductPictureUrlResolver : IValueResolver<Product, ProductDTO, string>//
     {
         private readonly IConfiguration _configuration;
 

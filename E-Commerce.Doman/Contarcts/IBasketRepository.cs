@@ -12,5 +12,5 @@ namespace E_Commerce.Domain.Contracts
         Task<CustomerBasket?> GetBasketAsync(string basketId);
         Task<CustomerBasket?> CreateOrUpdateBasketAsync(CustomerBasket basket , TimeSpan timeToLive = default);
         Task<bool> DeleteBasketAsync(string basketId);
-    }
+    }//
 }
